@@ -35,8 +35,8 @@
 #include <ESPDash.h>
 
 /* Your WiFi Credentials */
-const char *ssid = "lonelybinary";   // SSID
-const char *password = "0434811026"; // Password
+const char *ssid = "WIFI_SSID";   // SSID
+const char *password = "WIFI_PASSWORD"; // Password
 
 /* MOSFET pin */
 #define SWITCH 13
