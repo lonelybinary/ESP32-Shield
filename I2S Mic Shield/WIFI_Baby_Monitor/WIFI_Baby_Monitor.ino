@@ -26,7 +26,7 @@
 #include "AudioTools.h"
 
 /* change to your local wifi settings */
-AudioWAVServer server("SSID","PASSWORD");
+AudioWAVServer server("lonelybinary","0434811026");
 
 I2SStream i2sStream;   
 ConverterFillLeftAndRight<int16_t> filler(RightIsEmpty); // fill both channels - or change to RightIsEmpty
